@@ -6,6 +6,22 @@
 
 Installs several PHP modules.
 
+## Requirements
+
+### Platforms
+
+* Ubuntu (14.04)
+
+### Cookbooks:
+
+* php (~> 1.4.6)
+
+## Attributes
+
+Attribute | Default | Description | Choices
+----------|---------|-------------|--------
+`node['php-modules']['modules']` | `[]` | PHP modules to install and enable. |
+
 ## Recipes
 
 * php-modules::default - Installs several PHP modules.

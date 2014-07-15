@@ -14,3 +14,9 @@ suites:
   - name: default
     run_list:
       - recipe[php-modules::default]
+    attributes:
+      php-modules:
+        modules:
+          - imagick
+          - imap
+          - mcrypt
