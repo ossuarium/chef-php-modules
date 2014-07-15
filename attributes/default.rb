@@ -1,4 +1,4 @@
 #
-# Cookbook Name:: replace_cookbook
+# Cookbook Name:: php-modules
 # Attributes:: default
 #

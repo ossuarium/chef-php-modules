@@ -1,4 +1,4 @@
 require 'spec_helper'
 
-describe "replace_cookbook::default" do
+describe "php-modules::default" do
 end
