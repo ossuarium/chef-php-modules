@@ -7,7 +7,7 @@ version          '0.0.0'
 
 supports 'Ubuntu', '14.04'
 
-recipe 'php-modules::default', 'Installs several PHP modules.'
+recipe 'php-modules::default', 'Installs PHP modules.'
 
 depends 'php', '~> 1.4.6'
 
@@ -16,4 +16,4 @@ attribute 'php-modules/modules',
           description: %q{PHP modules to install and enable.},
           type: 'array',
           recipes: ['php-modules::default'],
-          default: []
+          default: {}

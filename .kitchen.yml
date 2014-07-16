@@ -17,6 +17,8 @@ suites:
     attributes:
       php-modules:
         modules:
-          - imagick
-          - imap
-          - mcrypt
+          curl: true
+          gd: true
+          imagick: true
+          imap: true
+          mcrypt: true

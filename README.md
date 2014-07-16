@@ -20,11 +20,11 @@ Installs several PHP modules.
 
 Attribute | Default | Description | Choices
 ----------|---------|-------------|--------
-`node['php-modules']['modules']` | `[]` | PHP modules to install and enable. |
+`node['php-modules']['modules']` | `{}` | PHP modules to install and enable. |
 
 ## Recipes
 
-* php-modules::default - Installs several PHP modules.
+* php-modules::default - Installs PHP modules.
 
 ## Development and Testing
 

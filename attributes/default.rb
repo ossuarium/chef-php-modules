@@ -3,4 +3,4 @@
 # Attributes:: default
 #
 
-default['php-modules']['modules'] = []
+default['php-modules']['modules'] = {}
