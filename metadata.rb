@@ -13,7 +13,7 @@ depends 'php', '~> 1.4.6'
 
 attribute 'php-modules/modules',
           display_name: 'PHP modules',
-          description: %q{PHP modules to install and enable.},
+          description: 'PHP modules to install and enable.',
           type: 'array',
           recipes: ['php-modules::default'],
           default: {}
