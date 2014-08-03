@@ -15,6 +15,7 @@ Installs several PHP modules.
 ### Cookbooks:
 
 * php (~> 1.4.6)
+* php-ioncube (~> 0.2.0)
 
 ## Attributes
 
