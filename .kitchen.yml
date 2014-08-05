@@ -21,4 +21,5 @@ suites:
           gd: true
           imagick: true
           imap: true
+          ioncube: true
           mcrypt: true
