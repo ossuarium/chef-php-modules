@@ -10,7 +10,7 @@ supports 'Ubuntu', '14.04'
 recipe 'php-modules::default', 'Installs PHP modules.'
 
 depends 'php', '~> 1.4.6'
-depends 'php-ioncube', '~> 0.2.0'
+depends 'php-ioncube', '~> 0.2.1'
 
 attribute 'php-modules/modules',
           display_name: 'PHP modules',
