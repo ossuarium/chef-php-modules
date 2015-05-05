@@ -6,6 +6,9 @@
 
 Installs several PHP modules.
 
+### Usage
+
+
 ## Requirements
 
 ### Platforms
@@ -14,14 +17,14 @@ Installs several PHP modules.
 
 ### Cookbooks:
 
-* php (~> 1.4.6)
+* php (~> 1.5.0)
 * php-ioncube (~> 0.2.1)
 
 ## Attributes
 
-Attribute | Default | Description | Choices
-----------|---------|-------------|--------
-`node['php-modules']['modules']` | `{}` | PHP modules to install and enable. |
+Attribute | Description | Default | Choices
+----------|-------------|---------|--------
+`node['php-modules']['modules']` | `PHP modules to install and enable.` | {} |
 
 ## Recipes
 
@@ -31,31 +34,14 @@ Attribute | Default | Description | Choices
 
 ### Source Code
 
-The [php-modules source](https://github.com/ourtownrentals/chef-php-modules)
+The [php-modules source](https://bitbucket.org/ourtownrentals/chef-php-modules)
 is hosted on GitHub.
 To clone the project run
 
 ```bash
-$ git clone https://github.com/ourtownrentals/chef-php-modules.git
+$ git clone https://bitbucket.org/ourtownrentals/chef-php-modules.git
 ```
 
-### Rake
-
-Run `rake -T` to see all Rake tasks.
-
-```
-rake all                          # Run all tasks
-rake doc                          # Build documentation
-rake foodcritic                   # Lint Chef cookbooks
-rake kitchen:all                  # Run all test instances
-rake kitchen:default-ubuntu-1404  # Run default-ubuntu-1404 test instance
-rake readme                       # Generate README.md from _README.md.erb
-rake rubocop                      # Run RuboCop
-rake rubocop:auto_correct         # Auto-correct RuboCop offenses
-rake spec                         # Run RSpec code examples
-rake test                         # Run kitchen integration tests
-rake yard                         # Generate YARD Documentation
-```
 
 ### Thor
 
@@ -79,7 +65,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://github.com/ourtownrentals/chef-php-modules/fork).
+1. Fork it (https://bitbucket.org/ourtownrentals/chef-php-modules/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes. Write and run tests.
 4. Commit your changes (`git commit -am 'Add some feature'`).
@@ -88,7 +74,7 @@ To submit a patch:
 
 ## License
 
-Copyright © 2014-2015-2015 OurTownRentals.com
+Copyright © 2014-2015 OurTownRentals.com
 
 ## Warranty
 
