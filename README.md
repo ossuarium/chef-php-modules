@@ -59,8 +59,6 @@ Forked from [chef-cookbook].
 
 ```bash
 $ git ls-files -z | xargs -0 sed -i 's/replace_cookbook/your_cookbook/g'
-$ git ls-files -z | xargs -0 sed -i 's/replace_yyyy/yyyy/g'
-$ git ls-files -z | xargs -0 sed -i 's/replace_name_of_copyright_owner/name_of_copyright_owner/g'
 ```
 
    To see a list of what else still needs to be replaced, run
