@@ -41,6 +41,8 @@ Forked from [chef-cookbook].
 ### Usage
 
 1. Clone this repository or download a release.
+   - The `master` branch can be used for making proprietary cookbooks.
+   - The `apache` branch can be used for making cookbooks under the Apache 2.0 License.
 
 2. Customize `doc/*.md`.
    - Do not edit `README.md` directly,
