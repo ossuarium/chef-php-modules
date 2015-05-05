@@ -1,7 +1,7 @@
 name             'php-modules'
 maintainer       'OurTownRentals.com'
 maintainer_email 'evan@ourtownrentals.com'
-license          'All rights reserved'
+license          'Apache 2.0'
 description      'Installs several PHP modules.'
 version          '0.0.0'
 
