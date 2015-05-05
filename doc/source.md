@@ -1,9 +1,9 @@
 ### Source Code
 
-The [php-modules source](https://bitbucket.org/ourtownrentals/chef-php-modules)
+The [php-modules source](https://github.com/ourtownrentals/chef-php-modules)
 is hosted on GitHub.
 To clone the project run
 
 ```bash
-$ git clone https://bitbucket.org/ourtownrentals/chef-php-modules.git
+$ git clone https://github.com/ourtownrentals/chef-php-modules.git
 ```

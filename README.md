@@ -34,12 +34,12 @@ Attribute | Description | Default | Choices
 
 ### Source Code
 
-The [php-modules source](https://bitbucket.org/ourtownrentals/chef-php-modules)
+The [php-modules source](https://github.com/ourtownrentals/chef-php-modules)
 is hosted on GitHub.
 To clone the project run
 
 ```bash
-$ git clone https://bitbucket.org/ourtownrentals/chef-php-modules.git
+$ git clone https://github.com/ourtownrentals/chef-php-modules.git
 ```
 
 
@@ -65,7 +65,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://bitbucket.org/ourtownrentals/chef-php-modules/fork).
+1. Fork it (https://github.com/ourtownrentals/chef-php-modules/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes. Write and run tests.
 4. Commit your changes (`git commit -am 'Add some feature'`).
