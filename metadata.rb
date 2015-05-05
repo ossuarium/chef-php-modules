@@ -1,8 +1,8 @@
 name             'replace_cookbook'
 maintainer       'OurTownRentals.com'
 maintainer_email 'replace_email@ourtownrentals.com'
-license          'All rights reserved'
+license          'Apache 2.0'
 description      'replace_description.'
-version          'Apache 2.0'
+version          '0.0.0'
 
 recipe 'replace_cookbook::default', 'replace_description.'
